@@ -24,6 +24,13 @@ storing 3485106 requests.
 * Classes: Loaded 1781 
 * CPU Usage: max 90%, active AVG: 60%, idle: unknown
 
+## Apache Ignite
+![Apache Ignite](docs/ignite.png)
+* Threads: total 135, live 70, peak 78
+* Heap Memory: Used 216MB
+* Classes: Loaded 6402 
+* CPU Usage: max 17%, active AVG: 2%, idle: 0.4%
+
 ## Testing
 We run the program as showed in the start script, specifically passing the
 D argument ``-Dcom.sun.management.jmxremote=true`` so that we can see the JVM 
