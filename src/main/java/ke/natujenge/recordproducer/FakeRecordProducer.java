@@ -6,7 +6,7 @@ import ke.natujenge.cache.ICache;
 import java.util.*;
 
 public class FakeRecordProducer {
-    private static final int maxCubeRoot = 152;
+    private static final int maxCubeRoot = 150;
     private final Random random = new Random();
 
     private final ICache cache;

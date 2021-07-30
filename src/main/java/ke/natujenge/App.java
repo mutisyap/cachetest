@@ -12,9 +12,9 @@ public class App
 {
     public static void main( String[] args ) throws InterruptedException {
         HashMapCache hashMapCache = new HashMapCache();
-        HazelcastCache hazelcastCache = new HazelcastCache();
+//        HazelcastCache hazelcastCache = new HazelcastCache();
 
-        FakeRecordProducer fakeRecordProducer = new FakeRecordProducer(hazelcastCache);
+        FakeRecordProducer fakeRecordProducer = new FakeRecordProducer(hashMapCache);
 
         fakeRecordProducer.generateRecords();
     }
