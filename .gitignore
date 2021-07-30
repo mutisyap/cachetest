@@ -1,0 +1,27 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/target/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+#netbeans files
+nb-configuration.xml
+
+# ignore .idea folder
+.idea/
+
+configs/
+
+*.iml
+
+# Also ignore engine.iml
+engine.iml
