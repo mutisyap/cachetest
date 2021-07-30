@@ -23,3 +23,13 @@ storing 3485106 requests.
 * Heap Memory: Used 3.0GB
 * Classes: Loaded 1781 
 * CPU Usage: max 90%, active AVG: 60%, idle: unknown
+
+## Testing
+We run the program as showed in the start script, specifically passing the
+D argument ``-Dcom.sun.management.jmxremote=true`` so that we can see the JVM 
+stats in JVM monitoring solutions, e.g JConsole.
+
+After running the program, start JConsole and select the process by
+id or main class name.
+
+Happy coding
